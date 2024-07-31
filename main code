@@ -5,7 +5,7 @@ import seaborn as sns
 from statsmodels.tsa.arima.model import ARIMA
 
 # Load the dataset
-file_path = r'C:\Users\Mak\Downloads\Oil Consumption by Country 1965 to 2023.csv'
+file_path = r'Oil Consumption by Country 1965 to 2023.csv'
 dataframe = pd.read_csv(file_path)
 
 # Display the first few rows of the dataframe
